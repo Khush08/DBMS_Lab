@@ -1,0 +1,97 @@
+.leftpane{
+    background-color: #262626;
+    width: 17%;
+    color: #fff;
+    float: left;
+}
+.leftpane h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #ff7d00;
+    text-decoration-style: dashed;
+    font-style: italic;
+
+}
+.leftpane img{
+    size: 96px 96px;
+    max-width: 96px;
+    max-height: 96px;
+    width: 100%;
+    padding: 9em;
+    padding-top: 6em;
+    padding-left: 0mm;
+    padding-bottom: 0mm;
+}
+.leftpane button{
+  color: #fff;
+  background-color: #262626;
+  border: none;
+  border-radius: 25px;
+  font-weight: 200;
+  text-align: center;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  padding: 1em;
+  width: 100%;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.leftpane button:hover, .leftpane button:focus {
+    opacity: 0.9; 
+    background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+}
+.leftpane{
+    padding: 2em;
+}
+.rightpane{
+    background-color: #595959;
+    width: 100%;
+    color: #fff;
+}
+.rightpane h1{
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #ff7d00;
+    text-decoration-style: dashed;
+    font-style: italic;
+    padding-left: 10em;
+    padding-top: 1.4em;
+}
+.querry{
+    padding: 0.5em;
+    padding-left: 21em;
+}
+.querry textarea{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 20em;
+    text-align: left;
+    color: #ff7d00;
+    background-color: #333333;
+}
+.btns{
+    padding: 1em;
+    padding-left: 0em;
+    padding-bottom: 9em;
+}
+.btns input{
+    color: #ffffff;
+    background-color: #333333;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.btns input:hover{
+    opacity: 0.9; 
+    background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+}
+body{
+    background-color: #333333;   
+}

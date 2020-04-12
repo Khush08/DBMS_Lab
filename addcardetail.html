@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Cars</title>
+    <link rel="stylesheet" href="addcardetails.css">
+</head>
+<body>
+    <form action="addcar.php" method="POST" class="addcarform">
+        <div class="container">
+            <div class="manufactures">
+                <label for="mnaufacturer name"> MANUFACTURER</label>
+                <select id="manufacturer" name="manufacturer">
+                    <option value="Toyota"> Toyota </option>
+                    <option value="Honada"> Honada </option>
+                    <option value="Hyundai"> Hyundai </option>
+                    <option value="Suzuki"> Suzuki </option>
+                    <option value="Kia"> Kia </option>
+                 </select>
+            </div>
+            <div class="category">
+                <label for="mnaufacturer name"> CATEGORY </label>
+                <select id="category" name="category">
+                    <option value="Hatchback"> Hatchback </option>
+                    <option value="Sedan"> Sedan </option>
+                    <option value="MVP"> MVP </option>
+                    <option value="Estate"> Estate </option>
+                    <option value="SUV"> SUV </option>
+                 </select>
+            </div>
+            <div class="models">
+                <label for="models">MODEL NAME</label>
+                <input type="text" id="modelname" name="modelname" placeholder="ENTER MODEL NAME">  
+            </div>
+            <div class="features">
+                <label for="fuel type"> FUEL TYPE </label>
+                <select id="fuel" name="fuel">
+                    <option value="Petrol">Petrol</option>
+                    <option value="Diesel">Diesel</option>
+                 </select>
+                <label for="audio">AUDIO COMPANY</label>
+                <select id="audio" name="audio">
+                    <option value="Standard">Standard</option>
+                    <option value="Harmen">Harmen</option>
+                    <option value="Bose">Bose</option>
+                 </select>
+                <label for="transmission">TRANSMISSION</label>
+                <select id="transmission" name="transmission">
+                    <option value="Manual">Manual</option>
+                    <option value="Automatic">Automatic</option>
+                 </select>
+            </div>
+            <div class="carsforsale">
+                <label for="">MILEAGE</label>
+                <input type="number" name="mileage" placeholder="Enter Mileage">
+                <label for="Price">PRICE</label>
+                <input type="number" id="price" name="price" placeholder="Enter Price">
+                <label for="Aquired">AQUIRED DATE</label>
+                <input type="date" id="aquired" name="aquired" placeholder="Aquired Date">
+                <label for="">REGISTRATION YEAR</label>
+                <input type="number" id="regyear" name="regyear" placeholder="Registration Year">
+            </div>
+        </div>
+        <input type="submit" name="SUBMIT">
+    </form>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addcustomer.css">
+</head>
+<body>
+    <form action="addcust.php" method="POST" class="addcusform">
+        <div class="container">
+            <div class="customer">
+                <label for="">EMAIL ID</label>
+                <input type="email" name="custemail" placeholder="Enter Email">
+                <label for="">MOBILE NO</label>
+                <input type="number" name="custmobile" placeholder="Enter Mobile No">
+                <label for="">AGE</label>
+                <input type="number" name="custage" placeholder="Enter Age">
+            </div>
+            <div class="address">
+                <label for="">ADDRESS_1</label>
+                <input type="text" name="addr1" placeholder="Enter Address1">
+                <label for="">ADDRESS_2</label>
+                <input type="text" name="addr2" placeholder="Enter Address2">
+                <label for="">ADDRESS_3</label>
+                <input type="text" name="addr3" placeholder="Enter Address3">
+                <label for="">CITY</label>
+                <input type="text" name="city" placeholder="Enter City">
+                <label for="">STATE</label>
+                <input type="text" name="state" placeholder="Enter State">
+                <label for="">PINCODE</label>
+                <input type="number" name="pincode" placeholder="Enter Pincode1">
+            </div>
+            <div class="features">
+                <label for="fuel type"> FUEL TYPE </label>
+                <select name="fuel">
+                    <option value="Petrol">Petrol</option>
+                    <option value="Diesel">Diesel</option>
+                 </select>
+                <label for="audio">AUDIO COMPANY</label>
+                <select name="audio">
+                    <option value="Standard">Standard</option>
+                    <option value="Harmen">Harmen</option>
+                    <option value="Bose">Bose</option>
+                 </select>
+                <label for="transmission">TRANSMISSION</label>
+                <select name="transmission">
+                    <option value="Manual">Manual</option>
+                    <option value="Automatic">Automatic</option>
+                 </select>
+            </div>
+        </div>
+        <input type="submit" name="SUBMIT">
+    </form>
+</body>
+</html>

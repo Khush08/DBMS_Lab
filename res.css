@@ -1,0 +1,20 @@
+hr{
+    border-top: 1px dotted orange;
+}
+body{
+    background-color: #262626;
+    color: #ffffff;
+}
+button{
+    background-color: #333333;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 0.5em;
+}
+button:hover{
+    background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+
+}

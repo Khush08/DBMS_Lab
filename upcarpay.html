@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="upcarpay.css">
+</head>
+<body>
+    <form action="uppay.php" method="POST" class="upcusdetform">
+        <div class="container">
+            <div class="customer">
+                <label for="">EMAIL ID</label>
+                <input type="email" name="upcustemail" placeholder="Enter Email">
+            </div>
+            <div class="payments"> 
+                <label for="payments">PAYMENT STATUS</label>
+                <input type="number" name="uppaysts" placeholder="ENTER PAYMENT STATUS">
+                <label for="">AMOUNT PAID</label>
+                <input type="number" name="amountpaid" placeholder="Enter Amount Paid">
+                <label for="">PAYMENT DATE</label>
+                <input type="date" name="pdate">
+                <label for="">NEXT PAYMENT DATE</label>
+                <input type="date" name="nxtpaydate">
+            </div>
+        </div>
+        <input type="submit" name="SUBMIT">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=u, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="upcusdet.css">
+</head>
+<body>
+    <form action="upcusdet.php" method="POST" class="upcusdetform">
+        <div class="container">
+            <div class="customer">
+                <label for="">EMAIL ID</label>
+                <input type="email" name="upcustemail" placeholder="Enter Email">
+            </div>
+            <div class="bought">
+                <label for="mnaufacturer name"> MANUFACTURER</label>
+                <select name="upmnaufacturer">
+                    <option value="Toyota"> Toyota </option>
+                    <option value="Honada"> Honada </option>
+                    <option value="Hyundai"> Hyundai </option>
+                    <option value="Suzuki"> Suzuki </option>
+                    <option value="Kia"> Kia </option>
+                </select>
+                <label for="models">MODEL NAME</label>
+                <input type="text" name="upmodelname" placeholder="ENTER MODEL NAME">
+                <label for="Price">AGREED PRICE</label>
+                <input type="number" name="agreedprice" placeholder="Enter Agreed Price">
+                <label for="solddate">SOLD DATE</label>
+                <input type="date" name="solddate" placeholder="Selling Date">
+            </div>
+            <div class="payments"> 
+                <label for="payments">PAYMENT STATUS</label>
+                <input type="number" name="uppaysts" placeholder="ENTER PAYMENT STATUS">
+                <label for="">NEXT PAYMENT DATE</label>
+                <input type="date" name="nxtpaydate">
+                <label for="">DUE AMOUNT</label>
+                <input type="number" name="dueamt" placeholder="Enter Due Amount">
+            </div>
+        </div>
+        <input type="submit" name="SUBMIT">
+    </form>
+</body>
+</html>

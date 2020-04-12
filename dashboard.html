@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="leftpane">
+        <h1>
+            Dashboard
+        </h1>
+        <div class="buttons">
+            <button id="addCusDet"> >> ADD CUSTOMER</button>
+            <script src="triggers.js"></script>
+            <button id="addCarDet"> >> ADD CAR</button>
+            <script src="triggers.js"></script>
+            <button id="update"> >> UPDATE</button>
+            <script src="triggers.js"></script>
+            <button id="details"> >> GET DETAILS </button>
+            <script src="triggers.js"></script>
+            <button id="logout"> >> LOGOUT</button>
+            <script src="triggers.js"></script> 
+        </div>
+        <img src="logo.jpeg" alt="">
+    </div>
+    <div class="rightpane">
+        <h1>
+            Query Board
+        </h1>
+        <div class="querry">
+            <form action="qb.php" method="POST" name="qbform">
+                <textarea name="querry_board" id="qb" cols="115" rows="17" placeholder="Enter query"></textarea>
+                <div class="btns">
+                    <input type="submit" name="SUBMIT">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

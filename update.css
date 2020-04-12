@@ -1,0 +1,48 @@
+body{
+    background-color: #333333
+}
+.container{
+    padding: 15px;
+    background-color: #262626;
+    align-items: center;
+}
+.container h1{
+    background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+    color: #262626;
+    text-align: center;
+}
+.container button{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    width: 10%;
+    margin-bottom: 0.5em;
+}
+.container button:hover{
+    background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+}
+.btns{
+    padding: 10em;
+    padding-top: 5em;
+    padding-left: 25em;
+    padding-bottom: 15.5em;
+    align-items: center;
+    
+}
+.btns button{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 0.5em;
+}
+.btns button:hover{
+    background-image: linear-gradient(-134deg, #FFA62E 0%, #FB962E 20%, #F8852E 40%, #F3742D 60%, #EF612D 80%, #EA4D2C 100%);
+
+}
