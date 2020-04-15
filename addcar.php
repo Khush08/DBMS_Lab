@@ -9,7 +9,7 @@
 <body>
 <?php
     if(isset($_POST['SUBMIT'])){
-        $manufacture=$_POST['man'];
+        $manufacture=$_POST['manu'];
         $category=$_POST['category'];
         $model=$_POST['modelname'];
         $fuel=$_POST['fuel'];

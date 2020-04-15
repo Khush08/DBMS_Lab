@@ -49,14 +49,15 @@
     width: 100%;
     color: #fff;
 }
-.rightpane h1{
+.rightpane p{
     text-align: left;
     text-decoration: underline;
     text-decoration-color: #ff7d00;
     text-decoration-style: dashed;
     font-style: italic;
-    padding-left: 10em;
+    padding-left: 18em;
     padding-top: 1.4em;
+    padding-bottom: 34em;
 }
 .querry{
     padding: 0.5em;
